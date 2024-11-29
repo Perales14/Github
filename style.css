@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#titulo-principal {
+    background-color: #004d40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ol {
+    list-style-type: decimal;
+    background-color: #e0f7fa;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ol li {
+    margin: 0 10px;
+}
+
+nav ol li a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+nav ol li a:hover {
+    color: #004d40;
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#multimedia img,
+#multimedia video,
+#multimedia audio {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+    bottom: 0;
+    width: 100%;
+}
